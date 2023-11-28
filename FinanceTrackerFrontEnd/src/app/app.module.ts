@@ -3,10 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BudgetComponent } from './components/budget/budget.component';
+import { UserComponent } from './components/user/user.component';
+import { SalaryComponent } from './components/salary/salary.component';
+import { TransactionComponent } from './components/transaction/transaction.component';
+import { CompanyComponent } from './components/company/company.component';
+import { CategoryComponent } from './components/category/category.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BudgetComponent,
+    UserComponent,
+    SalaryComponent,
+    TransactionComponent,
+    CompanyComponent,
+    CategoryComponent
   ],
   imports: [
     BrowserModule,
