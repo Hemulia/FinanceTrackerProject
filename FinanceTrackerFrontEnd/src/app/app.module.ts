@@ -9,6 +9,9 @@ import { SalaryComponent } from './components/salary/salary.component';
 import { TransactionComponent } from './components/transaction/transaction.component';
 import { CompanyComponent } from './components/company/company.component';
 import { CategoryComponent } from './components/category/category.component';
+import { LoginComponent } from './components/login/login.component';
+import { SigninComponent } from './components/signin/signin.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { CategoryComponent } from './components/category/category.component';
     SalaryComponent,
     TransactionComponent,
     CompanyComponent,
-    CategoryComponent
+    CategoryComponent,
+    LoginComponent,
+    SigninComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
