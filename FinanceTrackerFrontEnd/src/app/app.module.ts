@@ -12,6 +12,10 @@ import { CategoryComponent } from './components/category/category.component';
 import { LoginComponent } from './components/login/login.component';
 import { SigninComponent } from './components/signin/signin.component';
 import { HomeComponent } from './components/home/home.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {FormsModule} from '@angular/forms';
+import { CustomMaterialModule } from './core/material.module';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +32,10 @@ import { HomeComponent } from './components/home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    FormsModule,
+    CustomMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
